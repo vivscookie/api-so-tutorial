@@ -8,7 +8,6 @@ app.get('/', (req, res) => {
     <h1>Monitor de Sistemas Operacionais</h1>
     <p><strong>Hostname:</strong> ${os.hostname()}</p>
     <p><strong>Plataforma:</strong> ${os.platform()}</p>
-    <p><strong>Porta:</strong> ${os.port()}</p>
     <p><strong>Arquitetura:</strong> ${os.arch()}</p>
     <p><strong>Memória Total:</strong> ${Math.round(os.totalmem()/1024/1024)} MB</p>
     <p><strong>Memória Livre:</strong> ${Math.round(os.freemem()/1024/1024)} MB</p>
